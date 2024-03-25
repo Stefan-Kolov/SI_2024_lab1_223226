@@ -1,0 +1,35 @@
+[33mcommit c5f16c24afb84df51d5f953bab075208e896772c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/bug2[m[33m, [m[1;32mbug2[m[33m)[m
+Author: Stefan Kolov <kolov723@gmail.com>
+Date:   Mon Mar 25 15:32:15 2024 +0100
+
+    Call method makeBigStringFrom in main class
+
+[33mcommit 8eef948903888a59ea812653b3a75a3ad2933da9[m
+Author: Stefan Kolov <kolov723@gmail.com>
+Date:   Mon Mar 25 15:29:01 2024 +0100
+
+    Fix wrong condition in makeBigStringFrom
+
+[33mcommit 5fea178ea1faad670186dbac01a3537212802108[m[33m ([m[1;31morigin/bug1[m[33m, [m[1;32mbug1[m[33m)[m
+Author: Stefan Kolov <kolov723@gmail.com>
+Date:   Mon Mar 25 15:30:53 2024 +0100
+
+    Call method filterOddLengthStrings in main class
+
+[33mcommit 849fc730fa9448abd317603365ac7c9d8f77a04e[m
+Author: Stefan Kolov <kolov723@gmail.com>
+Date:   Mon Mar 25 15:27:30 2024 +0100
+
+    Fix wrong condition in filterOddLengthStrings
+
+[33mcommit b7589603ab1ebae9238f4a8ef122b571fc9f91d6[m
+Author: Stefan Kolov <kolov723@gmail.com>
+Date:   Mon Mar 25 15:24:18 2024 +0100
+
+    Add starter code
+
+[33mcommit 4be3c8668154bac8cbe3794e79c2aefe1e5890b3[m
+Author: Stefan Kolov <kolov723@gmail.com>
+Date:   Mon Mar 25 15:23:03 2024 +0100
+
+    Initial commit

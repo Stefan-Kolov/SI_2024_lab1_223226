@@ -1,0 +1,28 @@
+4. Со командата mkdir SI_2024_lab1_223226 направив нов локален директориум и со командата cd SI_2024_lab1_223226 влегов во него. Со командата git init го иницијализирав git vo директориумот.
+5. Со командата git remote add origin https://github.com/Stefan-Kolov/SI_2024_lab1_223226.git го поврзав мојот локален со одалечениот директориум.
+6. Со командата echo "Stefan Kolov, 223226" >> README.md направив README фајл со име презиме и индекс. Потоа со git add README.ME го донесов на сцена самиот фајл па со командата git commit -m "Initial commit" го направив комитот.
+7. Физички ги копирав во фолдерот SI_2024_lab1_223226 и потоа со git add SILab1Main.java SILab1_1.java SILab1_2.java ги донесов на сцена а со git commit -m "Add starter code" направив commit.
+8. Со командата git push --all origin ги синхронизирав сите гранки.
+9. Со командата git branch bug1 и git branch bug2 направив 2 гранки.
+10. Со командата git checkout bug1 се префрлив на гранката bug1.
+11. Со помош на Intellij ја поправив грешката, со командата git add SILab1_1.java го донесов на сцена фајлот и со git commit -m "Fix wrong condition in filterOddLengthStrings" направив commit.
+12. Со командата git checkout bug2 се префрлив на гранката bug2.
+13. Со помош на Intellij ја поправив грешката, со командата git add SILab1_2.java го донесов на сцена фајлот и со git commit -m "Fix wrong condition in makeBigStringFrom" направив commit.
+14. Со командата git checkout bug1.
+15. Со помош на Intellij ја поправив грешката, со командата git add SILab1Main.java го донесов на сцена фајлот и со git commit -m "Call method filterOddLengthStrings in main class" направив commit.
+16. Со командата git checkout bug2.
+17. Со помош на Intellij ја поправив грешката, со командата git add SILab1Main.java го донесов на сцена фајлот и со git commit -m "Call method makeBigStringFrom in main class" направив commit.
+18. Со командата git push --all origin ги синхронизирав сите гранки.
+19. Со командата git checkout master.
+20. Со командата git merge bug1. Не се појавија никакви проблеми.
+21. Со командата git push --all origin ги синхронизирав сите гранки.
+22. Со командата git checkout bug2.
+23. Со командата git rebase master потоа се јавија конфликти во SILab1Main.java фајлот, ги разрешив на начинот што ги избришав знаците "<",">","HEAD" и "=", ги оставив и двете повикувања на статичката метода, и со командата git rebase --continue продолжив со процесот.
+24. Со командата git checkout master.
+25. Со командата git merge bug2. Не се појавија никакви проблеми
+26/27. Со командата git push origin bug2 --force па потоа со командата git push --all origin.
+28. INDEX.txt гo додадов во локалниот директориум, логовите ги видов со командата git log и со истата направив logs.txt фајл.
+29. Со командата git push --all origin ги синхронизирав сите гранки.
+
+
+
